@@ -1,0 +1,7 @@
+.idea/
+com-seanergie-infrastructure-ansible.iml
+com-seanergie-ansible.iml
+*.retry
+Setup test environment/Virtual Machine Manager/init.iso
+Setup test environment/vagrant/id_rsa.pub
+Setup test environment/vagrant/.vagrant/
