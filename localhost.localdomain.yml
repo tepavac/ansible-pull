@@ -1,8 +1,6 @@
 ---
-- hosts: local
-
-  tasks:
-  - name: Create /home/ansible-pul folder
-    file:
-      path: /home/ansible-pul
-      state: directory
+- name: Setup
+  hosts: local
+  gather_facts: false
+  roles:
+    - initial-ansible-pull
