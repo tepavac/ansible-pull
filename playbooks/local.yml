@@ -1,6 +1,7 @@
 ---
 - name: Setup
   hosts: all
+  become: true
   gather_facts: false
   roles:
     - initial-ansible-pull
