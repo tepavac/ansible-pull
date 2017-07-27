@@ -1,2 +1,5 @@
-- name: Create the /home/ansible-pull directory
-  file: path=/home/ansible-pull state=directory owner=root group=root mode="u=rw,g=r,o=r"
+--
+- name: Create /home/ansible-pul folder
+  file:
+    path: /home/ansible-pul
+    state: directory
