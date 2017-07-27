@@ -1,5 +1,8 @@
---
-- name: Create /home/ansible-pul folder
-  file:
-    path: /home/ansible-pul
-    state: directory
+---
+- hosts: local
+
+  tasks:
+  - name: Create /home/ansible-pul folder
+    file:
+      path: /home/ansible-pul
+      state: directory
